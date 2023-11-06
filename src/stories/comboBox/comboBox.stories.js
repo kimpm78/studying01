@@ -1,11 +1,20 @@
 import { ComboBox } from "./comboBox";
 
+const topFilms = [{ title: "kim", year: 1993 }];
+
+const abc = [
+  {
+    year: 1234,
+  },
+];
+
 export default {
   title: "comboBox",
   component: ComboBox,
   args: {
-    title: { control: "text" },
-    textColor: { control: "text" },
+    aa: topFilms,
+    id: abc,
+    bb: asdf,
   },
 };
 
